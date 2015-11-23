@@ -1,0 +1,25 @@
+{
+  "name": "srleach/pushr",
+  "description": "Library to abstract a push notification provider to a simple interface, allowing users to switch out the provider if desired..",
+  "keywords": [
+    "Apple", "iOS", "Android", "Parse", "Push Notifications", "Push", "Notifications"
+  ],
+  "version": "0.1.0",
+  "homepage": "https://github.com/srleach/pushr",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Sean Leach",
+      "homepage": "https://github.com/srleach",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Srleach\\Pushr\\": "src"
+    }
+  },
+  "require": {
+    "parse/php-sdk" : "1.1.*"
+  }
+}
