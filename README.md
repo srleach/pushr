@@ -8,7 +8,7 @@ Modular PHP Push Notification Helper
 Simply require the module using composer, as normal:
 
 ````bash
-composer require srleach\pushr
+composer require srleach/pushr
 ````
 
 You're ready to get started.
